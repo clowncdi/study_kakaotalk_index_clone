@@ -1,0 +1,98 @@
+#container .profile {
+  height: 3em;
+  padding: 0.5em 0 1.25em;
+}
+#container .profile .thumb {
+  width: 3.5em;
+  height: 3.5em;
+}
+#container .profile h3 {
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0.5em 0 0.3em;
+}
+.profile p {
+  font-size: 0.8em;
+  color: #999;
+  letter-spacing: -0.5px;
+}
+.profile img {
+  width: 100%;
+}
+article {
+  position: relative;
+  border-bottom: 1px solid #f3f3f3;
+  padding: 1em 0;
+}
+#container article:last-child {
+  border-bottom: 0;
+}
+#container article h3 {
+  display: inline-block;
+  font-size: 1em;
+  padding: 0.8em 0;
+  font-weight: normal;
+}
+#container article h4 {
+  position: relative;
+  color: grey;
+  font-size: 0.7em;
+  font-weight: normal;
+  margin-bottom: 1em;
+}
+#container article h4 img {
+  width: 0.9em;
+  height: 0.5em;
+  position: absolute;
+  right: 0;
+  top: 0.5em;
+}
+.profile .thumb, .friends .thumb, .friends ul li img {
+  float: left;
+  width: 2.5em;
+  height: 2.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 38%;
+  margin-right: 0.75em;
+  vertical-align: top;
+  overflow: hidden;
+}
+.friends .thumb img {
+  width: 100%;
+}
+#container .friends ul li h3 {
+  padding: 0.3em 0;
+}
+.friends ul li {
+  margin-bottom: 1em;
+  min-height: 2.5em;
+}
+.friends ul li p {
+  color: grey;
+  font-size: 0.75em;
+}
+.friends h4 a {
+  display: inline-block;
+  width: 0.9em;
+  height: 0.5em;
+  position: absolute;
+  right: 0;
+  top: 0.5em;
+  background-position: -122px 0;
+}
+.friends .arr_right {
+  position: absolute;
+  right: 0;
+  font-size: 0.75em;
+  color: grey;
+  padding: 1.1em 0;
+}
+.friends .arr_right:after {
+  display: inline-block;
+  content: '';
+  width: 0.5em;
+  height: 0.9em;
+  margin-left: 0.5em;
+  background-position: -115px 0;
+  vertical-align: middle;
+}

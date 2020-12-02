@@ -1,0 +1,109 @@
+.top_nav_ico a:nth-child(2) {
+  background-position: -134px 0;
+}
+.bottom_nav_ico a:nth-child(1) {
+  background-position: 1px -24px;
+}
+.bottom_nav_ico a:nth-child(2) {
+  background-position: -70px -24px;
+}
+.banner img {
+  width: 100%;
+  padding: 0.5em 0 0.2em;
+}
+.chat li {
+  position: relative;
+  min-height: 3em;
+  padding: 0.8em 0;
+}
+.chat img {
+  float: left;
+  width: 3em;
+  height: 3em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 38%;
+  margin-right: 0.75em;
+  vertical-align: top;
+  overflow: hidden;
+}
+.group_profile2, .group_profile4 {
+  position: relative;
+  float: left;
+  width: 3.3em;
+  height: 3.3em;
+  margin-right: 0.75em;
+  vertical-align: top;
+  overflow: hidden;
+}
+.group_profile2 img {
+  display: block;
+  float: left;
+  width: 65%;
+  height: 65%;
+  border-radius: 38%;
+  border: 2px solid #fff;
+  margin: -2px;
+}
+.group_profile2 img:last-child {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+}
+.group_profile4 img {
+  display: block;
+  float: left;
+  width: 43%;
+  height: 43%;
+  margin: 0 2% 2% 0;
+  border-radius: 38%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.group_profile4 img:nth-child(2) {
+  margin-right: 0;
+}
+.group_profile4 img:nth-child(3) {
+  margin-bottom: 0;
+}
+.group_profile4 img:nth-child(4) {
+  margin: 0;
+}
+.chat li h3 {
+  font-size: 1em;
+  line-height: 1.4em;
+}
+.chat .count {
+  color: #aaa;
+}
+.chat li p {
+  font-size: 0.75em;
+  line-height: 1.2em;
+  color: #999;
+  letter-spacing: -0.5px;
+}
+.chat_date {
+  position: absolute;
+  font-size: 0.7em;
+  color: #999;
+  right: 0;
+  top: 1.6em;
+}
+.toppick, .me_ico {
+  background-image: url(../img/kakaotalk_img.png);
+  background-size: 156px 46px;
+  background-repeat: no-repeat;
+}
+.toppick {
+  display: inline-block;
+  background-position: -115px -10px;
+  margin-left: 0.2em;
+  width: 0.68em;
+  height: 0.8em;
+}
+.me_ico {
+  display: inline-block;
+  background-position: -94px -4px;
+  width: 1.3em;
+  height: 1.3em;
+  margin-right: 0.2em;
+  vertical-align: top;
+}
